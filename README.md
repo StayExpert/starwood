@@ -24,6 +24,25 @@ starwood.search({
   console.log(hotels);
 });
 ```
+Response JSON would like this:
+
+```js
+{ id: '3482',
+  thumbnail: '/pub/media/3482/str3482po.134187_md.jpg',
+  name: '三亚亚龙湾瑞吉度假酒店',
+  country: '中国,',
+  state: '海南,',
+  city: '三亚亚龙湾',
+  address: '亚龙湾国家旅游度假区',
+  fax: '(86)(898) 8855 5555',
+  zipcode: '572016',
+  category: '6',
+  description: '酒店位于中国最顶级的度假村目的地海南岛，并占据得天独厚的优美海滨地点，是畅享休闲宁静的人间天堂。',
+  bestRate: '4,200',
+  redeemPoints: false,
+  redeemCashPoints: false 
+}
+```
 
 ### API
 Check this file: `lib/starwood.js`
