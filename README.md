@@ -26,7 +26,12 @@ starwood.search({
 ```
 
 ### API
-check this file: `index.js`
+Check this file: `lib/starwood.js`
+
+### Tests
+```bash
+$ npm run test
+```
 
 ### Contributing
 - Fork this repo
