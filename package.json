@@ -4,6 +4,7 @@
   "description": "starwood hotels price fetcher",
   "main": "index.js",
   "scripts": {
+    "test": "DEBUG=starwood,starwood:* node_modules/.bin/mocha tests/search.js",
     "dev": "DEBUG=starwood,starwood:*,sdk,sdk:* node example/example.js"
   },
   "repository": {
