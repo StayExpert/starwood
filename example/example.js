@@ -10,6 +10,4 @@ starwood.search({
 }, function(err, hotels){
   if (err) 
     return console.error(err);
-
-  console.log(hotels);
 });
