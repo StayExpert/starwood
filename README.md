@@ -1,15 +1,28 @@
 ## starwood ![NPM version](https://img.shields.io/npm/v/starwood.svg?style=flat) 
 
-starwood hotels price fetcher
+a SDK of Starwood hotels APIs.
 
 ### Installation
 ```bash
-$ npm install starwood
+$ npm install starwood --save
 ```
 
 ### Example
 ```js
 var starwood = require('starwood');
+
+starwood.search({
+  country: 'CN',
+  province: 'CNHP',
+  city: 'Sanya',
+  arrivalDate: dataUtils.now(),
+  departureDate: dataUtils.tomorrow()
+}, function(err, hotels){
+  if (err)
+    return console.error(err)
+
+  console.log(hotels);
+});
 ```
 
 ### API
