@@ -1,4 +1,5 @@
 var starwood = require('..');
+var utils = require('../lib/utils');
 
 describe('#Starwood', function() {
   describe('#Search', function() {
@@ -7,8 +8,8 @@ describe('#Starwood', function() {
         country: 'CN',
         province: 'CNHP',
         city: 'Sanya',
-        arrivalDate: now(),
-        departureDate: tomorrow()
+        arrivalDate: utils.today(),
+        departureDate: utils.tomorrow()
       }, function(err, hotels) {
         if (err)
           return done(err);
