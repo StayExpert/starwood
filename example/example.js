@@ -8,8 +8,8 @@ starwood.search({
   arrivalDate: utils.today(),
   departureDate: utils.tomorrow()
 }, function(err, hotels){
-  if (err)
-    return console.error(err)
+  if (err) 
+    return console.error(err);
 
   console.log(hotels);
 });
