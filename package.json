@@ -24,7 +24,7 @@
   "dependencies": {
     "cheerio": "^0.18.0",
     "debug": "^2.1.0",
-    "sdk": "0.2.0"
+    "sdk": "0.2.1"
   },
   "devDependencies": {
     "mocha": "^2.1.0",
