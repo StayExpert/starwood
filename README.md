@@ -27,7 +27,8 @@ starwood.search({
 Response JSON would like this:
 
 ```js
-{ id: '3482',
+{ 
+  id: '3482',
   thumbnail: '/pub/media/3482/str3482po.134187_md.jpg',
   name: '三亚亚龙湾瑞吉度假酒店',
   country: '中国,',
